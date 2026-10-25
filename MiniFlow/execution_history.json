@@ -1,0 +1,575 @@
+[
+  {
+    "date": "2026-10-25T12:08:40",
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1
+      }
+    ]
+  },
+  {
+    "workflow": "Text Analysis Pipeline",
+    "executed_at": "2026-10-25T12:13:56",
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1
+      }
+    ]
+  },
+  {
+    "workflow": "Text Analysis Pipeline",
+    "executed_at": "2026-10-25T12:13:58",
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-25T12:33:55",
+    "duration_seconds": 0.028,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "executed_at": "2026-10-25T12:33:58",
+    "duration_seconds": 0.008,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "executed_at": "2026-10-25T12:33:59",
+    "duration_seconds": 0.009,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "executed_at": "2026-10-25T12:38:24",
+    "duration_seconds": 0.008,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "executed_at": "2026-10-25T12:38:26",
+    "duration_seconds": 0.01,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "executed_at": "2026-10-25T12:50:04",
+    "duration_seconds": 0.02,
+    "total": 4,
+    "completed": 4,
+    "failed": 0,
+    "blocked": 0,
+    "success_rate": 100,
+    "tasks": [
+      {
+        "name": "Prepare Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": []
+      },
+      {
+        "name": "Validate Input",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Prepare Input"
+        ]
+      },
+      {
+        "name": "Analyze Text",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Validate Input"
+        ]
+      },
+      {
+        "name": "Generate Report",
+        "status": "COMPLETED",
+        "attempts": 1,
+        "depends_on": [
+          "Analyze Text"
+        ]
+      }
+    ],
+    "events": [
+      "Started: Prepare Input",
+      "Input file created successfully.",
+      "Completed: Prepare Input",
+      "Started: Validate Input",
+      "Input validation successful.",
+      "Completed: Validate Input",
+      "Started: Analyze Text",
+      "Text analysis completed.",
+      "Completed: Analyze Text",
+      "Started: Generate Report",
+      "Report generated successfully.",
+      "Completed: Generate Report"
+    ],
+    "analysis": {
+      "lines": 4,
+      "words": 17,
+      "characters": 141,
+      "unique_words": 15,
+      "frequency": {
+        "python": 2,
+        "makes": 1,
+        "automation": 2,
+        "easier": 1,
+        "miniflow": 1,
+        "executes": 1,
+        "tasks": 1,
+        "automatically": 1,
+        "helps": 1,
+        "developers": 1,
+        "save": 1,
+        "time": 1,
+        "reduces": 1,
+        "repetitive": 1,
+        "work": 1
+      }
+    }
+  },
+  {
+    "id": "20261025130131579195",
+    "title": "Text cleaning workflow",
+    "timestamp": "2026-10-25 13:01:31 India Standard Time",
+    "status": "completed",
+    "analysis": {
+      "word_count": 4,
+      "character_count": 17,
+      "line_count": 1,
+      "whitespace_changes": true
+    },
+    "duration_ms": 7.02,
+    "cleaned_text": "hey i am shivangi"
+  },
+  {
+    "id": "20261025130550687716",
+    "title": "Text cleaning workflow",
+    "timestamp": "2026-10-25 13:05:50 India Standard Time",
+    "status": "completed",
+    "analysis": {
+      "word_count": 2,
+      "character_count": 14,
+      "line_count": 1,
+      "whitespace_changes": true
+    },
+    "duration_ms": 8.08,
+    "cleaned_text": "Hello World!!!"
+  }
+]
